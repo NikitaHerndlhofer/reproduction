@@ -1,18 +1,13 @@
 {
   "name": "@mikro-orm/reproduction",
   "private": true,
-  "description": "",
-  "main": "index.js",
+  "description": "MikroORM Bug: em.assign with null on OneToOne + orphanRemoval inside transaction",
   "scripts": {
-    "build": "tsc",
-    "start": "jest",
     "test": "jest"
   },
-  "author": "Martin Adamek",
-  "license": "MIT",
   "dependencies": {
-    "@mikro-orm/core": "next",
-    "@mikro-orm/sqlite": "next",
+    "@mikro-orm/core": "6.6.2",
+    "@mikro-orm/sqlite": "6.6.2",
     "reflect-metadata": "^0.1.13"
   },
   "devDependencies": {
